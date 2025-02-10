@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('bg9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;  
+    margin: 0;  
+    color: rgb(27, 27, 27);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0652a3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart {
+    margin-top: 20px;
+}
